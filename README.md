@@ -1,6 +1,16 @@
 # E05b-Physics
 Exploring 2D physics and collisions.
 
+
+
+I had a real issue figuring out how to make the collisions work for the animals and then walls.
+I have no clue how to make these work and I would like an example of it working in the future.
+If there is anything I couldve done to fix my errors please let me know. Sorry this one
+was just a little difficult. I hope to pick it back up for the next one.
+
+
+
+
 In *main1.py*, you will need to apply gravity to the balls on the screen. To do so, you will need to find an appropriate gravity constant and assign GRAVITY to that number (line 17). Because of the way the Y axis works in Python Arcade, GRAVITY will need to be a negative number for the balls to fall.
 
 You will then need to accelerate the balls according to the GRAVITY constant. You can call b.accelerate(x,y) on line 67. In the case of applying gravity, x will be 0 and y will be GRAVITY.
